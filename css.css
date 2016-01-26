@@ -1,0 +1,34 @@
+body, html {
+	height:100%;
+}
+body {
+	background: url(catsmoar.jpg)no-repeat;
+	background-size: cover;
+	color:#fff;
+	padding: 0;
+	margin: 0;
+}
+
+#topheader {
+	background: grey;
+	height: 50px;
+	padding: 10px;
+	border: 6px dotted yellow;
+}
+#topheader h1 {
+	font-family: arial;
+}
+
+.box {
+	width: 20%;
+	height: 100px;
+	padding: 10px;
+	margin: 20px;
+	background: rgba(255,255,255,0.5);
+	color: black;
+}
+
+.innerbox {
+	background: red;
+	color: white;
+}
